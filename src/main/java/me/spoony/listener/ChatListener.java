@@ -21,7 +21,6 @@ public class ChatListener {
     @SubscribeEvent
     public void onClientChatReceived(ClientChatReceivedEvent event) {
         if (ModConfig.debug || Display.isActive()) {
-            AutoQueue.LOGGER.info("Current location: " + LocrawRetriever.game);
             mc.thePlayer.addChatMessage(new ChatComponentText("Current location: " + LocrawRetriever.game));
         }
 
