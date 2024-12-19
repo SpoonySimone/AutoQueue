@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "${id}",
+    "name": "${name}",
+    "description": "AutoQueue is a mod that automatically queues you once a Hypixel game is finished.",
+    "version": "${version}",
+    "mcversion": "${mcVersionStr}",
+    "url": "https://github.com/SpoonySimone/AutoQueue",
+    "updateUrl": "",
+    "authorList": [
+      "SpoonySimone"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
