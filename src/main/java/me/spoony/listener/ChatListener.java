@@ -20,9 +20,6 @@ public class ChatListener {
 
     @SubscribeEvent
     public void onClientChatReceived(ClientChatReceivedEvent event) {
-        if (ModConfig.debug || Display.isActive()) {
-            mc.thePlayer.addChatMessage(new ChatComponentText("Current location: " + LocrawRetriever.game));
-        }
 
         if (event.type == 2) return; // no action bar
 
