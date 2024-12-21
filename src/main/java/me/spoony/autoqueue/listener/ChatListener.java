@@ -1,16 +1,13 @@
-package me.spoony.listener;
+package me.spoony.autoqueue.listener;
 
-import me.spoony.AutoQueue;
-import me.spoony.config.ModConfig;
-import me.spoony.retrievers.LocrawRetriever;
-import me.spoony.retrievers.trigger.TriggersRetriever;
+import me.spoony.autoqueue.config.ModConfig;
+import me.spoony.autoqueue.retrievers.LocrawRetriever;
+import me.spoony.autoqueue.retrievers.trigger.TriggersRetriever;
 import net.minecraft.client.Minecraft;
-import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import me.spoony.tasks.Queue;
-import org.lwjgl.opengl.Display;
+import me.spoony.autoqueue.tasks.Queue;
 
 import java.util.List;
 import java.util.regex.Pattern;

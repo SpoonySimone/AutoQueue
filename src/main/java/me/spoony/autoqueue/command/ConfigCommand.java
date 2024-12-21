@@ -1,6 +1,6 @@
-package me.spoony.command;
+package me.spoony.autoqueue.command;
 
-import me.spoony.AutoQueue;
+import me.spoony.autoqueue.AutoQueue;
 import cc.polyfrost.oneconfig.utils.commands.annotations.Command;
 import cc.polyfrost.oneconfig.utils.commands.annotations.Main;
 

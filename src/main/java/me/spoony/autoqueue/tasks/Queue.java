@@ -1,6 +1,6 @@
-package me.spoony.tasks;
+package me.spoony.autoqueue.tasks;
 
-import me.spoony.config.ModConfig;
+import me.spoony.autoqueue.config.ModConfig;
 import net.minecraft.client.Minecraft;
 import org.lwjgl.opengl.Display;
 

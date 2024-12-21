@@ -1,4 +1,4 @@
-package me.spoony.retrievers.trigger;
+package me.spoony.autoqueue.retrievers.trigger;
 
 import com.google.gson.Gson;
 import org.apache.logging.log4j.LogManager;

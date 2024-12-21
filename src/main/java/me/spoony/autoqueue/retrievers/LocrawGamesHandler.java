@@ -1,11 +1,11 @@
-package me.spoony.retrievers;
+package me.spoony.autoqueue.retrievers;
 
 import cc.polyfrost.oneconfig.utils.Multithreading;
 import cc.polyfrost.oneconfig.utils.NetworkUtils;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
-import me.spoony.AutoQueue;
+import me.spoony.autoqueue.AutoQueue;
 
 import java.lang.reflect.Type;
 import java.util.HashMap;

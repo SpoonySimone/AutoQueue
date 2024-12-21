@@ -1,7 +1,7 @@
 {
   "compatibilityLevel": "JAVA_8",
   "minVersion": "0.7",
-  "package": "me.spoony.mixin",
+  "package": "me.spoony.autoqueue.mixin",
   "refmap": "mixins.autoqueue.refmap.json",
   "injectors": {
     "maxShiftBy": 5

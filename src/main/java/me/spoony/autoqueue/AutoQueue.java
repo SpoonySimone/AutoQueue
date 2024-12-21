@@ -1,13 +1,13 @@
-package me.spoony;
+package me.spoony.autoqueue;
 
 import cc.polyfrost.oneconfig.events.EventManager;
-import me.spoony.command.ConfigCommand;
-import me.spoony.command.QueueTrigger;
-import me.spoony.config.ModConfig;
-import me.spoony.listener.ChatListener;
-import me.spoony.retrievers.LocrawGamesHandler;
-import me.spoony.retrievers.LocrawRetriever;
-import me.spoony.retrievers.trigger.TriggersRetriever;
+import me.spoony.autoqueue.command.ConfigCommand;
+import me.spoony.autoqueue.command.QueueTrigger;
+import me.spoony.autoqueue.config.ModConfig;
+import me.spoony.autoqueue.listener.ChatListener;
+import me.spoony.autoqueue.retrievers.LocrawGamesHandler;
+import me.spoony.autoqueue.retrievers.LocrawRetriever;
+import me.spoony.autoqueue.retrievers.trigger.TriggersRetriever;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import cc.polyfrost.oneconfig.utils.commands.CommandManager;

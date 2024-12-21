@@ -1,4 +1,4 @@
-package me.spoony.mixin;
+package me.spoony.autoqueue.mixin;
 
 import net.minecraft.client.Minecraft;
 import org.spongepowered.asm.mixin.Mixin;

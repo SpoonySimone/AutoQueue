@@ -1,4 +1,4 @@
-package me.spoony.retrievers;
+package me.spoony.autoqueue.retrievers;
 
 import cc.polyfrost.oneconfig.events.EventManager;
 import cc.polyfrost.oneconfig.events.event.LocrawEvent;
@@ -6,7 +6,6 @@ import cc.polyfrost.oneconfig.libs.eventbus.Subscribe;
 import cc.polyfrost.oneconfig.utils.hypixel.HypixelUtils;
 import cc.polyfrost.oneconfig.utils.hypixel.LocrawInfo;
 import cc.polyfrost.oneconfig.utils.hypixel.LocrawUtil;
-import me.spoony.AutoQueue;
 
 public class LocrawRetriever {
     public static String game = "";

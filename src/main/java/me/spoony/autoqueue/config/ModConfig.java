@@ -1,9 +1,9 @@
-package me.spoony.config;
+package me.spoony.autoqueue.config;
 
 import cc.polyfrost.oneconfig.config.annotations.Info;
 import cc.polyfrost.oneconfig.config.annotations.Slider;
 import cc.polyfrost.oneconfig.config.data.InfoType;
-import me.spoony.AutoQueue;
+import me.spoony.autoqueue.AutoQueue;
 import cc.polyfrost.oneconfig.config.Config;
 import cc.polyfrost.oneconfig.config.annotations.Switch;
 import cc.polyfrost.oneconfig.config.data.Mod;
