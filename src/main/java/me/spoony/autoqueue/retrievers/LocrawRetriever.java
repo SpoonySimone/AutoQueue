@@ -7,6 +7,7 @@ import cc.polyfrost.oneconfig.utils.hypixel.HypixelUtils;
 import cc.polyfrost.oneconfig.utils.hypixel.LocrawInfo;
 import cc.polyfrost.oneconfig.utils.hypixel.LocrawUtil;
 
+//code heavily inspired by Hytils Reborn https://github.com/Polyfrost/Hytils-Reborn/blob/master/src/main/java/org/polyfrost/hytils/command/RequeueCommand.java
 public class LocrawRetriever {
     public static String game = "";
 

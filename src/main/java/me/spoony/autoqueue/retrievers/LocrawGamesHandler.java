@@ -11,6 +11,7 @@ import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.Map;
 
+//code taken from Hytils Reborn https://github.com/Polyfrost/Hytils-Reborn/blob/master/src/main/java/org/polyfrost/hytils/command/RequeueCommand.java
 public class LocrawGamesHandler {
     public static LocrawGamesHandler INSTANCE = new LocrawGamesHandler();
     public static Map<String, String> locrawGames = new HashMap<>();
