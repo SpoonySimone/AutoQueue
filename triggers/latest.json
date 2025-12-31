@@ -16,6 +16,7 @@
       "^ +. YOUR STATISTICS .$",
       "^ {36}Winner(s?)$",
       "^ {21}Bridge CTF [a-zA-Z]+ - \\d\\d:\\d\\d$",
-      "^(?:You died! .+|YOU DIED! .+|You have been eliminated!|You have permanently died! .+|You won! .+|YOU WON! .+)$"
+      "^(?:You died! .+|YOU DIED! .+|You have been eliminated!|You have permanently died! .+|You won! .+|YOU WON! .+)$",
+      "^ +(?:Survivors \\(\\d+\\):|Nobody survived!)$"
     ]
   }
