@@ -18,6 +18,7 @@
       "^ {21}Bridge CTF [a-zA-Z]+ - \\d\\d:\\d\\d$",
       "^(?:You died! .+|YOU DIED! .+|You have been eliminated!|You have permanently died! .+|You won! .+|YOU WON! .+)$",
       "^ +(?:Survivors \\(\\d+\\):|Nobody survived!)$",
-      "^\\s*Total Fails: \\d+\\s*$"
+      "^\\s*Total Fails: \\d+\\s*$",
+      "^ +You didn't finish!$"
     ]
   }
